@@ -4,7 +4,7 @@
 * HTML
 * CSS
 * Bootstrap
-*jQuery
-*Less
+* jQuery
+* Less
 ## Veja:
 <img src ="image\animacao_port.gif">
