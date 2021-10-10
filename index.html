@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/8dd542139c.js" crossoring="anonymous"></script>
+  <title>Portifolio</title>
+
+  <style>
+    .corPrimaria {
+      background:#18bc9c ;
+    }
+
+    .corSecundaria {
+      background-color: #2c3e50;
+    }
+
+    p {
+      font-family:Lato, 'Helvetica', Arial, sans-serif;
+      color: black !important;
+    }
+    .icones {
+      padding-left: 5px;
+    }
+
+    .titulosBrancos {
+      text-decoration: underline;
+      text-underline-position: below;
+      padding-bottom: uppercase;
+      font-weight: 700;
+      color: white;
+    }
+    .titulosVerde {
+      text-decoration: underline;
+      text-underline-position: below;
+      padding-bottom: uppercase;
+      font-weight: 700;
+      color: #18bc9c;
+    }
+
+    .textoBranco{
+      color: white !important;
+    }
+
+    .jumbotron {
+      margin-bottom: 0px;
+    }
+
+    .textoFoter{
+      margin: 0px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .navbar-light .navbar-toggler-icon{
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.efeito:hover {
+
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);
+transition: 300ms;
+}
+
+.efeito{
+  background-color: transparent;
+  transition: 650ms;
+}
+
+.card-text{
+  text-align: justify;
+}
+</style>
+</head>
+
+<body>
+  <nav class=" corSecundaria navbar navbar-expand-lg navbar-light ">
+    <a class="navbar-brand textoBranco" href="#">Filipe Silva</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+      </ul>
+      <ul class="navbar-nav">
+        <li class="navbar-nav ">
+          <a class="nav-link textoBranco" href="#projetos">Projetos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link textoBranco" href="#sobre-mim">Sobre mim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link textoBranco" href="#contato">Contato</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link textoBranco" href="https://drive.google.com/file/d/1KGZGGUlglliW9hWNFYum_ESl9hS7B-bR/view?usp=sharing"target='_blank'>Curriculo</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section class="jumbotron text-center corPrimaria">
+    <div class="container">
+      <h1 class="jumbotron-heading textoBranco">Filipe Silva</h1>
+      <p class="lead textoBranco">Front-End| HTML5| CSS3| SCSS| Javascript| SQL\MySQL</p>
+      <p>
+        <a href="#contato" class="btn btn-dark my-2">Contato</a>
+      </p>
+      <a href="https://www.linkedin.com/in/filipe-silva-/"> <i class=" textoBranco fab fa-linkedin"></i></a>
+      <a href="https://github.com/euFilpeSilva"> <i class=" textoBranco icones fab fa-github"></i></a>
+      <a href="https://www.instagram.com/lypes7/"> <i class=" textoBranco icones fab fa-instagram"></i></a>
+    </div>
+  </section>
+  <div class="album py-5 bg-light" id="projetos">
+    <div class="container ">
+     <h2 class="jombotron-heading text-center titulosVerde" style="margin-bottom: 50px;">Projetos</h2>
+      <div class="row">
+        <!-- Projeto 01 -->
+        <div class="col-md-6 efeito">
+          <div class="card mb-4 box-shadow ">
+            <img class="card-img-top "
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+              src="https://github.com/euFilpeSilva/urna_eletronica/blob/master/images/Gifs/Anima%C3%A7%C3%A3o1.gif?raw=true"
+              data-holder-rendered="true">
+            <div class="card-body ">
+              <p class="card-text">Projeto para fins didaticos, 
+                onde exercitei habilidades como, manipulação por seletor, Flexbox, efeitos de transição construidos com o
+                 opacity e @Keyframes.</p>
+              <ul>
+                <li>Logica de programação</li>
+                <li>javascript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Json</li>
+                
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://urnna-eletronica.netlify.app/" target="_blank"> <button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button></a>
+                  <a href="https://github.com/euFilpeSilva/urna_eletronica" target="_blank"><button type="button" class="btn btn-sm btn-outline-primary">Codigo</button></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Projeto 02 -->
+        <div class="col-md-6 efeito">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block; object-fit: cover;"
+              src="https://github.com/euFilpeSilva/animated-search-bar/blob/master/image/Animation_search_bar.gif?raw=true"
+              data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text">Projeto para fins didáticos, onde exercitei habilidades como, manipulação por seletor, 
+                Flexbox, biblioteca (font-awesome) e logica de programação.
+              </p>
+              <ul>
+                <li>Logica de programação</li>            
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Less</li>
+                <li>Biblioteca: Font-awesome</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://searchbarr.netlify.app/ " target="_blank"> <button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button></a>
+                  <a href="https://github.com/euFilpeSilva/animated-search-bar"  target="_blank"><button type="button" class="btn btn-sm btn-outline-primary">Codigo</button></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Projeto 03 -->
+        <div class="col-md-6 efeito">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block; object-fit: cover;"
+              src="https://github.com/euFilpeSilva/Interface_Netflix/raw/master/img/Giff_Netflix.gif"
+              data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text">Projeto para fins didáticos, onde exercitei habilidades como, manipulação por seletor, 
+                Flexbox, biblioteca (font-awesome) e logica de programação.
+              </p>
+              <ul>
+                <li>Logica de programação</li>            
+                <li>javascript</li>            
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Less</li>
+                <li>Biblioteca: jQuery</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://interfacenetflixx.netlify.app/ " target="_blank"> <button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button></a>
+                  <a href="https://github.com/euFilpeSilva/Interface_Netflix"  target="_blank"><button type="button" class="btn btn-sm btn-outline-primary">Codigo</button></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Projeto 04 -->
+        <div class="col-md-6 efeito">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block; object-fit: cover;"
+              src="https://github.com/euFilpeSilva/project_instagram/raw/master/img/prints/imag01.png"
+              data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text">Projeto para fins didáticos, onde exercitei minhas habilidades com os itens abaixo, em especial o
+                Flexbox.
+              </p>
+              <ul>
+                <li>Logica de programação</li>            
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>json</li>            
+                <li>Less</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://instagramp.netlify.app/" target="_blank"> <button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button></a>
+                  <a href="https://github.com/euFilpeSilva/project_instagram"  target="_blank"><button type="button" class="btn btn-sm btn-outline-primary">Codigo</button></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Projeto 05 -->
+        <div class="col-md-6 efeito">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block; object-fit: cover;"
+              src="https://github.com/euFilpeSilva/Contador/blob/master/images/Anima%C3%A7%C3%A3o%20dev%20Contador.gif?raw=true"
+              data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text">🏁 Projeto para fins didáticos, onde exercitei habilidades como, manipulação por seletor, Flexbox, e logica de programação.
+              </p>
+              <ul>
+                <li>Logica de programação</li>            
+                <li>javascript</li>            
+                <li>HTML</li>
+                <li>CSS</li>            
+                <li>Less</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://contador-number.netlify.app/" target="_blank"> <button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button></a>
+                  <a href="https://github.com/euFilpeSilva/Contador"  target="_blank"><button type="button" class="btn btn-sm btn-outline-primary">Codigo</button></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Projeto 06 -->
+        <div class="col-md-6 efeito">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block; object-fit: cover;"
+              src="https://github.com/euFilpeSilva/Analisador_de_numero/blob/master/image/registro%20Animation.gif?raw=true"
+              data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text">🏁 Projeto para fins didáticos, onde exercitei habilidades como, manipulação por seletor, Flexbox, e logica de programação.
+              </p>
+              <ul>
+                <li>Logica de programação</li>            
+                <li>javascript</li>            
+                <li>HTML</li>
+                <li>CSS</li>            
+                <li>Less</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://registrar-numeros.netlify.app/" target="_blank"> <button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button></a>
+                  <a href="https://github.com/euFilpeSilva/Analisador_de_numero"  target="_blank"><button type="button" class="btn btn-sm btn-outline-primary">Codigo</button></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- sobre mim -->
+  <section class="jumbotron text-center corPrimaria " id="sobre-mim">
+   <div class="container">
+     <h2 class="jumnotron-heading titulosBrancos">Sobre mim</h2>
+     <p class="lead textoBranco">
+      Futuro analista de sistemas, buscando conhecimento
+para me tornar um profissional qualificado e agregar
+valor aos meus companheiros por onde eu passar.
+Aprender a compartilhar é um diferencial pra quem
+quer se aprimorar.
+     </p>
+   </div>
+  </section>
+  <!-- Contato -->
+  <section class="corPrimaria" id="contato">
+    <div>
+      <div class="container-fluid">
+        <h3 style="padding-top: 60px" class="text-center titulosBrancos">Disponivel para oportunidades</h3>
+       <a href="mailto:sousadasilvafilipe@gmail.com"> <h4 style="padding-bottom: 60px;
+        margin-bottom: 0px"; class="text-center">👉sousadasilvafilipe@gmail.com👈</h4></a>
+       
+      </div>
+    </div>
+  </section>
+<!-- Footer -->
+ <footer class="text-center corSecundaria textoFoter">
+   <p class="textoBranco">protifolio criado em 2021.</p>
+ </footer>
+</body>
+</html>
